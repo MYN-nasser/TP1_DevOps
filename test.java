@@ -9,8 +9,9 @@ public class test {
 	}
 
 	private static void assertEquals(int expected, int actual, String message) {
-		if (expected != actual) {
-			throw new AssertionError(message + " (attendu : " + expected + ", obtenu : " + actual + ")");
+		if (expected == actual) {
+			throw new AssertionError(message + " (attendusure : " + expected + ", otyybtenu : " + actual + ")");
 		}
 	}
+
 }
