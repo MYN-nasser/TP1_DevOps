@@ -13,4 +13,25 @@ public class test {
 			throw new AssertionError(message + " (attendu : " + expected + ", obtenu : " + actual + ")");
 		}
 	}
+	private static void assertEquals(int expected, int actual, String message) {
+		if (expected != actual) {
+			throw new AssertionError(message + " (attendu : " + expected + ", obtenu : " + actual + ")");
+		}
+	}
+
+
+	private static void assertEquals(int expected, int actual, String message) {
+		if (expected != actual) {
+			throw new AssertionError(message + " (attendu : " + expected + ", obtenu : " + actual + ")");
+		}
+	}
+
+	private static void assertEquals(int expected, int actual, String message) {
+		if (expected != actual) {
+			throw new AssertionError(message + " (attendu : " + expected + ", obtenu : " + actual + ")");
+		}
+	}
+
+
+	// simple change
 }
